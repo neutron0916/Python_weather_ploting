@@ -1,4 +1,4 @@
-#Weather ploting app
+## Weather ploting app
 
 **Purpos**
 get the temp and PoP data from 中央氣象資料開放平台 and plot it
