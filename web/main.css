@@ -1,0 +1,13 @@
+.form {display: inline-block;}
+
+.location { width: 8rem;}
+.location:hover + .location_DL {display: block}
+.district:hover + .district_DL {display: block}
+.DL_item{width: 4rem; display: flexbox;opacity: 100%;}
+.DL { z-index: 10; width:  10rem;display: none; position: absolute; padding: 1%; background-color: rgba(216, 216, 216, 0.8); border-radius: 5%;}
+.DL:hover {display: block}
+
+.title{text-align: center; font-size: 4rem; text-shadow: 1px  1px 1px rgb(148, 148, 148);}
+
+.container{display:flex;justify-content: center;}
+.Query{display: block;}
