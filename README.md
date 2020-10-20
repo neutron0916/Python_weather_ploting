@@ -14,3 +14,6 @@ get the temp and PoP data from 中央氣象資料開放平台 and plot it
 * jQuery --> "https://code.jquery.com/jquery-3.5.1.min.js"
 
 
+**Present**
+![Alt Text](https://upload.cc/i1/2020/10/20/8tz6WA.gif)
+
