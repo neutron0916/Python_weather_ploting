@@ -1,13 +1,77 @@
-.form {display: inline-block;}
+body {
+  background-image: linear-gradient(rgb(128, 172, 164), rgb(255, 255, 255));
+}
 
-.location { width: 8rem;}
-.location:hover + .location_DL {display: block}
-.district:hover + .district_DL {display: block}
-.DL_item{width: 4rem; display: flexbox;opacity: 100%;}
-.DL { z-index: 10; width:  10rem;display: none; position: absolute; padding: 1%; background-color: rgba(216, 216, 216, 0.8); border-radius: 5%;}
-.DL:hover {display: block}
+.form {
+  display: inline-block;
+}
 
-.title{text-align: center; font-size: 4rem; text-shadow: 1px  1px 1px rgb(148, 148, 148);}
+.btn {
+  border-radius: 5px;
+  margin-left: 2px;
+  border: 1px black solid;
+}
+.location:hover + .location_DL {
+  display: block;
+}
+.district:hover + .district_DL {
+  display: block;
+}
+.DL_item {
+  width: 4rem;
+  display: flexbox;
+  opacity: 100%;
+}
+.DL {
+  z-index: 10;
+  width: 10rem;
+  display: none;
+  position: absolute;
+  padding: 1%;
+  background-color: rgba(216, 216, 216, 0.8);
+  border-radius: 5%;
+}
+.DL:hover {
+  display: block;
+}
 
-.container{display:flex;justify-content: center;}
-.Query{display: block;}
+.title {
+  text-align: center;
+  font-size: 4rem;
+  text-shadow: 2px 2px 2px rgb(148, 148, 148);
+  color: #213e3b;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.Query {
+  margin-left: 1rem;
+  display: block;
+  background-color: rgb(35, 139, 139);
+  color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 1px rgb(100, 100, 100);
+  transition: all 0.2s ease;
+}
+
+.Query:hover {
+  background-color: rgb(161, 255, 235);
+  color: rgb(0, 0, 0);
+}
+
+#myDiv {
+  border: 1px rgb(122, 122, 122) solid;
+  margin-top: 2rem;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+}

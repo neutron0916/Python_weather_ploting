@@ -38,7 +38,8 @@ $('.Query').click(async () => {
   }
 
   Plotly.newPlot('myDiv', [data_T, data_P], layout);
-
+  $('#myDiv').hide()
+  $('#myDiv').slideDown()
 
 })
 
