@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(rgb(128, 172, 164), rgb(255, 255, 255));
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
 }
 
 .form {
@@ -39,7 +39,7 @@ body {
   text-align: center;
   font-size: 4rem;
   text-shadow: 2px 2px 2px rgb(148, 148, 148);
-  color: #213e3b;
+  color: #ffffff;
   padding: 1rem;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
